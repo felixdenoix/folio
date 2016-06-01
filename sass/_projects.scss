@@ -1,0 +1,101 @@
+#projects {
+
+  .contentproj {
+
+    .illu {
+      float: left;
+      transform: translate(-20%, -20%);
+      padding: 4em;
+      margin-bottom: -6em;
+
+      //border: 0.15em solid #000;
+      //-webkit-border-radius: 50%;
+      //-moz-border-radius: 50%;
+      //border-radius: 50%;
+      //opacity: $logoOpacity;
+      //transition: opacity 0.25s ease-in-out;
+      //
+      //&:hover {
+      //  background-color: #fff;
+      //  opacity: 1;
+      //  box-shadow: .5px .5px $noir,1px 1px $noir,1.5px 1.5px $noir,2px 2px $noir,2.5px 2.5px $noir,3px 3px $noir,3.5px 3.5px $noir,4px 4px $noir,4.5px 4.5px $noir;
+      //}
+      //
+
+      img {
+        width: 22vw;
+        padding: 1.5em;
+        border: 0.15em solid #000;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        opacity: $logoOpacity;
+        transition: opacity 0.25s ease-in-out;
+        &:hover {
+          background-color: #fff;
+          opacity: 1;
+          box-shadow: .5px .5px $noir,1px 1px $noir,1.5px 1.5px $noir,2px 2px $noir,2.5px 2.5px $noir,3px 3px $noir,3.5px 3.5px $noir,4px 4px $noir,4.5px 4.5px $noir;
+          pointer: crosshair;
+        }
+      }
+      @media screen and (max-width: $breakSmall){
+
+      }
+    }
+
+    .abstract {
+      h1 {
+        text-align: right;
+      }
+      p {
+        text-align: right;
+      }
+    }
+
+    .link {
+      clear: both;
+      position: relative;
+      border: 10px solid #000;
+      z-index: 10;
+      padding: 0;
+      text-align: center;
+
+      a {
+        z-index: 10;
+        padding: 0;
+      }
+    }
+
+  }
+
+  @media screen and (max-width: $breakSmall){
+    .content {
+      //border: 1px solid #000;
+      padding-top: 1em;
+
+      .illu {
+        float:none;
+        //display: block;
+        //position: relative;
+        transform: translate(0, 0);
+        -webkit-border-radius:0;
+        -moz-border-radius:0;
+        border-radius:0;
+        margin: 0 0 2em 0;
+        padding: 0;
+        img {
+          width: 60vw;
+          border-radius: 50%;
+          background-color: #fff;
+          //margin: auto;
+          //position: relative;
+          //top: 0;
+          //right: 0;
+          //bottom: 0;
+          //left: 0;
+        }
+      }
+    }
+  }
+}
+
