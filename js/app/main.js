@@ -8,8 +8,7 @@ var App = function () {
     });
 
     // Elements déclarations
-    this.moreBtn = $('.more');
-
+    this.moreBtn            = $('.more');
     this.morePopUp          = $('.morePopUp');
     this.morePopUpOverlay   = $('.morePopUp .overlay');
     this.morePopUpContent   = $('.morePopUp .popUp');
@@ -30,6 +29,7 @@ var App = function () {
     this.dispMorePopUp();
     this.hideMorePopUp();
     this.randomGradient();
+    this.closeMoreAuto();
 };
 
 App.prototype.dispMorePopUp = function() {
@@ -94,3 +94,8 @@ App.prototype.randomGradient = function() {
 
 };
 
+App.prototype.closeMoreAuto = function() {
+    var self = this;
+
+    $
+};

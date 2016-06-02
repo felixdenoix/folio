@@ -1,5 +1,4 @@
 .morePopUp{
-
   visibility: hidden;
   position: absolute;
   top: 0;
@@ -15,7 +14,6 @@
     background-color: rgba(0,0,0, 0.4);
   }
   .popUp{
-
     visibility: hidden;
     position: fixed;
     top: 0;
@@ -26,22 +24,18 @@
     box-shadow: 3px 0 30px $shadow, 1px 0 10px $shadow;
 
     .text{
-
+      border: 1px solid green;
       visibility: hidden;
       margin: 3rem;
-
-      //font-weight: 100;
-
       p{
         margin-top: 2em;
       }
-
       a{
         font-size: 1em;
       }
     }
-    .close{
 
+    .close{
       visibility: hidden;
       position: fixed;
       top: 2rem;
@@ -51,7 +45,7 @@
     .links{
       width: 10em;
       border: 1px solid #000;
-      //position: RELATIVE;
+      position: absolute;
       margin: auto;
       left: 0;
       right: 0;
@@ -63,7 +57,6 @@
         margin: 0 0.2em 0 0.2em;
 
       }
-      //height: 50px;
     }
   }
 }
